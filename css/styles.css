@@ -1,0 +1,10 @@
+/* styles.css */
+@import url('styles/global.css');
+@import url('styles/view.css');
+@import url('styles/buttons.css');
+@import url('styles/forms.css');
+@import url('styles/lists.css');
+@import url('styles/utilities.css');
+@import url('styles/color.css');
+@import url('styles/dropdown.css');
+@import url('styles/media-queries.css');

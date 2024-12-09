@@ -1,0 +1,19 @@
+/* styles/global.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.centered {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}

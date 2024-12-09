@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "ToDo Recall",
+  "version": "0.1.0",
+  "description": "A task management extension to manage and retrieve tasks made as a final project for CS50x by Yordis Cujar.",
+  "icons": {
+    "16": "src/icon16.png",
+    "48": "src/icon48.png",
+    "128": "src/icon128.png"
+  },
+  "permissions": [
+    "bookmarks",
+    "notifications",
+    "alarms",
+    "tabs",
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "js/model/background/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "background.html",
+    "default_icon": {
+      "16": "src/icon16.png",
+      "48": "src/icon48.png",
+      "128": "src/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "css": ["css/styles/color.css"]
+    }
+],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

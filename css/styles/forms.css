@@ -1,0 +1,38 @@
+/* styles/forms.css */
+select,
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 0.625em;
+    margin-bottom: 0.625em;
+    border: 1px solid #ddd;
+    border-radius: 0.3125em;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #a51c30;
+    box-shadow: 0 0 0.3125em rgba(165, 28, 48, 0.5);
+}
+
+input.error,
+textarea.error {
+    border: 1px solid red;
+}
+
+input.success,
+textarea.success {
+    border: 1px solid green;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}

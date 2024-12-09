@@ -1,0 +1,5 @@
+title,description,url,action,timer,pomodoro,color,destroy
+"Welcome","Thank you for using To-do Recall remember that every task completed must have a title and description or it will not be created.","","none","","false","black","false"
+"It's my birthday!!","Congratulations :)","https://www.youtube.com/watch?v=ca8dXJgTqQg","openLink","2024-11-20T23:45","","yellow",""
+"Time of Study","!!!","https://cs50.harvard.edu/x/2024/","openLink","09:30","","blue",""
+"Concentrate !!","Nop youtube","https://www.youtube.com/*","closeTab","20","true","red",""

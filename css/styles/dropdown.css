@@ -1,0 +1,21 @@
+/* styles/dropdown.css */
+
+#bookmarkSuggestions {
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+}
+
+.bookmark-option {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.bookmark-option:hover {
+    background-color: #f0f0f0;
+}

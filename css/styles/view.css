@@ -1,0 +1,26 @@
+/* styles/view.css */
+.view {
+    background-color: var(--menu-bg-color);
+    color: var(--menu-text-color);
+    display: none;
+    width: 90%;
+    max-width: 800px;
+    padding: 1.25em;
+    background: #fff;
+    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    transition: all 0.3s ease;
+    overflow: auto;
+}
+
+.view.active {
+    display: block;
+}
+
+.menu-title {
+    text-align: center;
+    margin-bottom: 1.25em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #a51c30;
+}

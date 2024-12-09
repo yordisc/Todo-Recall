@@ -1,0 +1,23 @@
+/* styles/utilities.css */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+div {
+    margin-bottom: 1.25em;
+}
+
+#app,
+#mainMenu, 
+#editMenu, 
+#optionsMenu, 
+#archiveMenu, 
+#trashMenu, 
+#viewTaskMenu, 
+#passwordMenu {
+    margin-bottom: 0;
+}

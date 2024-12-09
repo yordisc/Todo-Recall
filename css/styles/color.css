@@ -1,0 +1,23 @@
+/* styles/color.css */
+
+/* Color Variables */
+:root {
+    --yellow-bg-color: #ffffe0;
+    --yellow-text-color: #666600;
+    --blue-bg-color: #e0f7ff;
+    --blue-text-color: #004466;
+    --red-bg-color: #ffe0e0;
+    --red-text-color: #660000;
+    --green-bg-color: #e0ffe0;
+    --green-text-color: #006600;
+    --purple-bg-color: #f0e0ff;
+    --purple-text-color: #660066;
+    --orange-bg-color: #fff4e0;
+    --orange-text-color: #664400;
+    --white-bg-color: #ffffff;
+    --white-text-color: #333333;
+    --black-bg-color: #333333;
+    --black-text-color: #ffffff;
+    --menu-bg-color: #ffffff;
+    --menu-text-color: #333333;
+}

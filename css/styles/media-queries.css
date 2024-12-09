@@ -1,0 +1,49 @@
+/* styles/media-queries.css */
+@media (max-width: 768px) {
+    .view {
+        width: 95%;
+        padding: 1em;
+    }
+
+    #buttonsContainer {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #buttonsContainer button,
+    li button,
+    button {
+        font-size: 0.875em;
+        padding: 0.5em 0.75em;
+    }
+
+    #addTaskBtn {
+        padding: 0.625em 0.75em;
+        font-size: 1.25em;
+    }
+
+    .menu-title {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-title {
+        font-size: 1.1em;
+    }
+
+    #buttonsContainer {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #addTaskBtn {
+        font-size: 1.1em;
+        padding: 0.5em 0.5em;
+    }
+
+    #searchBar {
+        padding: 0.5em;
+        font-size: 0.9em;
+    }
+}
